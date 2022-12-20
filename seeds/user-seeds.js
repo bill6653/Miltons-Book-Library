@@ -1,4 +1,4 @@
-// todo: build user seeds js
+// todo: build user seeds js (use user model as a guide)
 
 const { User } = require('../models');
 

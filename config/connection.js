@@ -1,4 +1,4 @@
-// todo: build connection
+// todo: check connection
 
 const Sequelize = require('sequelize');
 require('dotenv').config();

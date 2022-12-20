@@ -1,4 +1,4 @@
-// todo: build index js
+// todo: build index js (need to add books seeds as well)
 
 const seedUsers = require('./user-seeds');
 
