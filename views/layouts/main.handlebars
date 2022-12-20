@@ -1,0 +1,48 @@
+{{!-- todo: build main handlebars --}}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Blog</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div class="flex-column justify-space-around">
+    
+    <header>
+        <nav class="title">
+          <a href="/">The Tech Blog</a>
+        </nav>
+        <nav>
+          {{#if loggedIn}}
+            <a href="/">Homepage</a>
+            <a href="/dashboard">Dashboard</a>
+            <button id="logout" class="btn-no-style">Logout</button>
+          {{else}}
+            <a href="/">Homepage</a>
+            <a href="/dashboard">Dashboard</a>
+            <a href="/login">Login</a>
+          {{/if}}
+        </nav>
+      </header>
+
+    <main class="container container-fluid mt-5">
+      <!-- Render the sub layout -->
+      {{{ body }}}
+    </main>
+
+    <footer>
+    </footer>
+  </div>
+
+  <!-- Render script for logged in users only -->
+  {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+</body>
+
+</html>
