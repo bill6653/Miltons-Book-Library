@@ -1,6 +1,3 @@
 // todo: build index model
 
 
-
-
-
