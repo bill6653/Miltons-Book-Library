@@ -1,0 +1,16 @@
+{{!-- todo: check comments handlebars --}}
+<div class="text-center">
+  <h2>{{name}}</h2>
+  <p>{{{get_emoji}}}</p>
+  <p>{{description}}</p>
+  <p>Created by {{user.name}} on {{format_date date_created}}</p>
+  <p>
+    <span for="img" aria-label="book"></span>
+    <span style='font-size:100px;'>&#128218;</span>
+    <span class="book-library">{{format_amount needed_funding}}</span>
+    Books
+  </p>
+  <p>
+    <button class="btn btn-primary">My Book Library</button>
+  </p>
+</div>
