@@ -1,0 +1,16 @@
+[
+    {
+        "name": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "description": "A little guy doing lots of walking",
+        "genre": "Fantasy"
+    },
+    {
+        "name": "Lord of the Rings",
+        "author": "J.R.R. Tolkien2",
+        "description": "A little guy's nephew doing lots of walking",
+        "genre":  "Fantasy2"
+    }
+]
+
+
