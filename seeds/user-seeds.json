@@ -1,13 +1,12 @@
-
- [
-    {
-        "username": "Xandromus",
-        "email": "Xandromus@gmail.com",
-        "password": "p@ssword1"
-    },
-    {
-        "username": "Lernantino",
-        "email": "Lernantino@gmail.com",
-        "password": "p@ssword2"
-    }
+[
+  {
+    "name": "Xandromus",
+    "email": "Xandromus@gmail.com",
+    "password": "p@ssword1"
+  },
+  {
+    "name": "Lernantino",
+    "email": "Lernantino@gmail.com",
+    "password": "p@ssword2"
+  }
 ]
