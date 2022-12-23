@@ -25,7 +25,7 @@ try {
         },
     });
 
-    if (!bookData) {
+    if (!newBook) {
         res.status(404).json({ message: 'No book found with this id'});
         return;
     }
