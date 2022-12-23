@@ -1,6 +1,29 @@
 const router = require('express').Router();
 const { User } = require('../../models');
 
+// Find all users
+router.get('/', async (req, res) => {
+   try{
+    const users = await User.findAll();
+        res.status(200).json(users);
+   } catch (err) {
+        res.status(500).json(err);
+   }
+});
+
+// Find user by id
+router.get('/:id', async (req, res) => {
+    await User.findByPk(req.params.id, {
+        attributes: ["id", "name", "email"],
+    })
+    .then((users) => {
+        res.json(users);
+    })
+    .catch((err) => {
+        res.json(err);
+    });
+});
+
 // Creates session
 router.post('/', async (req, res) => {
     try{
