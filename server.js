@@ -1,5 +1,3 @@
-// todo: check server js
-
 const path = require('path');
 const express = require('express');
 const session = require('express-session');
@@ -16,8 +14,6 @@ const PORT = process.env.PORT || 3001;
 // Set up Handlebars.js engine with custom helpers
 const hbs = exphbs.create({ helpers });
 
-
-// todo: decide on idle interval
 const sess = {
   secret: 'Super secret secret',
   cookie: {

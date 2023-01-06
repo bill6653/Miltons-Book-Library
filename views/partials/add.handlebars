@@ -1,2 +1,48 @@
-{{!-- todo: build add books handlebars --}}
+<div class="row">
+  <div class="col-auto">
+    <h2>Welcome, {{name}}!</h2>
+  </div>
+</div>
 
+<div class="row mt-4">
+  <div class="col-md-6">
+    <h3>Wish List</h3>
+
+    <form class="form wishlist">
+      <div class="form-group">
+        <label for="wish list">Wish List</label>
+        <input class="form-input" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="book-title">Title Book:</label>
+        <input class="form-input" type="number" id="book-title" name="book-title" />
+      </div>
+      <div class="form-group">
+        <label for="book-desc">Book's description</label>
+        <textarea class="form-input" id="book-desc" name="book-desc"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Author</button>
+      </div>
+    </form>
+  </div>
+
+  {{#if books.length}}
+  <div class="col-md-6 book-list">
+    <h3>Current Library</h3>
+
+    {{#each books as |book|}}
+    <div class="row mb-2">
+      <div class="col-md-8">
+        <h4><a href="/book/{{book.id}}">{{book.name}}</a></h4>
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-sm btn-danger" data-id="{{book.id}}">DELETE</button>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+  {{/if}}
+</div>
+
+<script src="../../public/js/login.js"></script>

@@ -1,0 +1,34 @@
+[
+    {
+        "name": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "description": "A little guy doing lots of walking",
+        "genre": "Fantasy"
+    },
+    {
+        "name": "Lord of the Rings",
+        "author": "J.R.R. Tolkien2",
+        "description": "A little guy's nephew doing lots of walking",
+        "genre":  "Fantasy2"
+    },
+    {
+        "name":"Harry Potter",
+        "author":"J.K. Rowling",
+        "description":"A little guy who does lots of walking with a wand",
+        "genre":"Fantasy3"
+    },
+    {
+        "name":"All Quiet on the Western Front",
+        "author":"Erich Maria Remarque",
+        "description":"Many dudes walking along a trench in ww1",
+        "genre":"nonfiction"
+    },
+    {
+        "name":"Holes",
+        "author":"Louis Sachar",
+        "description":"a teeanger walking around the desert digging holes",
+        "genre":"Fantasy4"
+    }
+]
+
+
