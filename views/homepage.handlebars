@@ -1,18 +1,8 @@
+<h1 class="pb-4 has-text-centered has-text-weight-bold">Book Recommendations:</h1>
+
 {{#each books as |book| }}
-<div class="row align-center mb-5">
-  <div class="col-md-6">
-    <h2>{{book.name}}</h2>
-    </div>
-    <body>
-  <div class="col-md-6">
-    <h3>Book List</h3>
-    <ul>The Hobbit</ul>
-    <ul>Lord of the Rings</ul>
-    <ul>Harry Potter</ul>
-    <ul>All Along the Western Front</ul>
-    <ul>Holes</ul>
-    </div>
-    </body>
+<h2 class="has-text-weight-bold">{{book.name}} </h2>
+    <p >{{book.description}} | {{book.author}} | {{book.genre}}</p> 
 {{/each}}
    
 

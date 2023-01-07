@@ -7,15 +7,15 @@
     },
     {
         "name": "Lord of the Rings",
-        "author": "J.R.R. Tolkien2",
+        "author": "J.R.R. Tolkien",
         "description": "A little guy's nephew doing lots of walking",
-        "genre": "Fantasy2"
+        "genre": "Fantasy"
     },
     {
         "name":"Harry Potter",
         "author":"J.K. Rowling",
         "description":"A little guy who does lots of walking with a wand",
-        "genre": "Fantasy3"
+        "genre": "Fantasy"
     },
     {
         "name":"All Quiet on the Western Front",
@@ -26,8 +26,8 @@
     {
         "name":"Holes",
         "author":"Louis Sachar",
-        "description":"a teeanger walking around the desert digging holes",
-        "genre": "Fantasy4"
+        "description":"Teenagers walking around the desert digging holes",
+        "genre": "Fantasy"
     }
 ]
 
